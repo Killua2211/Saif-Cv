@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saif Al-Ashmay | Graphic Designer</title>
+  <meta name="description"
+    content="Saif Al-Ashmay is a creative Graphic Designer specializing in branding, advertising, and visual storytelling." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg-particles" id="bgParticles"></div>
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Saif<span class="logo-dot">.</span><span
+          class="logo-accent">design</span><span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active" id="navHome">Home</a></li>
+        <li><a href="#about" class="nav-link" id="navAbout">About</a></li>
+        <li><a href="#skills" class="nav-link" id="navSkills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" id="navProjects">Projects</a></li>
+        <li><a href="#contact" class="nav-link" id="navContact">Contact</a></li>
+      </ul>
+      <a href="Saif_Al-Ashmay_Portfolio.pdf" download="Saif_Al-Ashmay_CV.pdf" class="btn btn-primary nav-cv"
+        id="navDownloadCV">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+          <polyline points="7 10 12 15 17 10" />
+          <line x1="12" y1="15" x2="12" y2="3" />
+        </svg>
+        Download CV
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-eyebrow"><span class="eyebrow-dot"></span>Available for work</p>
+        <h1 class="hero-title">
+          Hi, I&apos;m <span class="gradient-text">Saif</span><br />
+          <span class="typewriter" id="typewriter"></span>
+        </h1>
+        <p class="hero-desc">I craft bold, memorable visual identities from branding and advertising campaigns to social
+          media content that stops the scroll.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary" id="heroViewWork">
+            View My Work
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor"
+              stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+          <a href="Saif_Al-Ashmay_Portfolio.pdf" download="Saif_Al-Ashmay_CV.pdf" class="btn btn-outline"
+            id="heroDownloadCV">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download CV
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num" data-target="14">0</span><span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num" data-target="10">0</span><span class="stat-label">Clients</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num" data-target="3">0</span><span class="stat-label">Years Exp</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="avatar-ring"></div>
+        <div class="avatar-ring ring-2"></div>
+        <img src="profile_avatar.jpg" alt="Saif Al-Ashmay Graphic Designer" class="avatar-img" id="profileAvatar" />
+        <div class="floating-badge badge-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+            stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <polygon
+              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+          </svg><span>Top Designer</span></div>
+        <div class="floating-badge badge-2"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+            stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 16 14" />
+          </svg><span>Fast Delivery</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div><span>Scroll down</span>
+    </div>
+  </section>
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Get to know me</p>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrapper">
+          <div class="about-image-glow"></div>
+          <img src="profile_avatar.jpg" alt="Saif Al-Ashmay" class="about-img" />
+          <div class="about-image-tag"><span class="tag-icon">🎨</span><span>Creative Designer</span></div>
+        </div>
+        <div class="about-content">
+          <h3 class="about-heading">I Design Visuals That <span class="gradient-text">Speak Louder</span> Than Words
+          </h3>
+          <p class="about-text">I&apos;m Saif Al-Ashmay, a passionate Graphic Designer with a knack for transforming
+            ideas into visually compelling experiences. From large-scale advertising campaigns to precise branding
+            systems, I bring creativity and strategy together.</p>
+          <p class="about-text">My work spans brand identity, print design, social media content, and advertising,
+            always driven by a deep understanding of visual communication.</p>
+          <div class="about-highlights">
+            <div class="highlight-item"><span class="highlight-icon">🏆</span>
+              <div><strong>Brand Identity</strong>
+                <p>End-to-end branding systems</p>
+              </div>
+            </div>
+            <div class="highlight-item"><span class="highlight-icon">📢</span>
+              <div><strong>Advertising</strong>
+                <p>Campaigns that convert</p>
+              </div>
+            </div>
+            <div class="highlight-item"><span class="highlight-icon">📱</span>
+              <div><strong>Social Media</strong>
+                <p>Scroll-stopping content</p>
+              </div>
+            </div>
+            <div class="highlight-item"><span class="highlight-icon">🖨️</span>
+              <div><strong>Print Design</strong>
+                <p>Flyers, brochures and more</p>
+              </div>
+            </div>
+          </div>
+          <a href="Saif_Al-Ashmay_Portfolio.pdf" download="Saif_Al-Ashmay_CV.pdf" class="btn btn-primary"
+            id="aboutDownloadCV">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download My CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">What I do</p>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+      </div>
+      <div class="skills-grid" id="skillsGrid">
+        <div class="skill-card">
+          <div class="skill-icon-wrap" style="--accent:#ff6b6b"><svg xmlns="http://www.w3.org/2000/svg" width="28"
+              height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="3" />
+              <path d="m9.5 15 2.5-7 2.5 7M10.5 13h3" />
+            </svg></div>
+          <h3>Adobe Illustrator</h3>
+          <p>Vector art, logo design, and scalable illustrations</p>
+          <div class="skill-bar">
+            <div class="skill-fill" data-pct="92" style="--accent:#ff6b6b"></div>
+          </div><span class="skill-pct">92%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon-wrap" style="--accent:#4facfe"><svg xmlns="http://www.w3.org/2000/svg" width="28"
+              height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="3" />
+              <path d="M8 10c0-1.1.9-2 2-2h.5a2.5 2.5 0 1 1 0 5H8V10z" />
+            </svg></div>
+          <h3>Adobe Photoshop</h3>
+          <p>Photo manipulation, retouching and compositing</p>
+          <div class="skill-bar">
+            <div class="skill-fill" data-pct="88" style="--accent:#4facfe"></div>
+          </div><span class="skill-pct">88%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon-wrap" style="--accent:#a855f7"><svg xmlns="http://www.w3.org/2000/svg" width="28"
+              height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="3" />
+              <line x1="9" y1="7" x2="9" y2="17" />
+              <path d="M12 7h4a3 3 0 0 1 0 6h-4" />
+            </svg></div>
+          <h3>Adobe InDesign</h3>
+          <p>Print layout, brochures, magazines and publications</p>
+          <div class="skill-bar">
+            <div class="skill-fill" data-pct="80" style="--accent:#a855f7"></div>
+          </div><span class="skill-pct">80%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon-wrap" style="--accent:#f59e0b"><svg xmlns="http://www.w3.org/2000/svg" width="28"
+              height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77 5.82 21.02 7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg></div>
+          <h3>Brand Identity</h3>
+          <p>Logo design, style guides and brand systems</p>
+          <div class="skill-bar">
+            <div class="skill-fill" data-pct="90" style="--accent:#f59e0b"></div>
+          </div><span class="skill-pct">90%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon-wrap" style="--accent:#10b981"><svg xmlns="http://www.w3.org/2000/svg" width="28"
+              height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polyline points="4 7 4 4 20 4 20 7" />
+              <line x1="9" y1="20" x2="15" y2="20" />
+              <line x1="12" y1="4" x2="12" y2="20" />
+            </svg></div>
+          <h3>Typography</h3>
+          <p>Arabic and English typeface selection and hierarchy</p>
+          <div class="skill-bar">
+            <div class="skill-fill" data-pct="85" style="--accent:#10b981"></div>
+          </div><span class="skill-pct">85%</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon-wrap" style="--accent:#ec4899"><svg xmlns="http://www.w3.org/2000/svg" width="28"
+              height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+            </svg></div>
+          <h3>Social Media Design</h3>
+          <p>Posts, stories, ads and motion content</p>
+          <div class="skill-bar">
+            <div class="skill-fill" data-pct="93" style="--accent:#ec4899"></div>
+          </div><span class="skill-pct">93%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Portfolio</p>
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+      </div>
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Get in touch</p>
+        <h2 class="section-title">Let&apos;s <span class="gradient-text">Collaborate</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Ready to start a project?</h3>
+          <p>Whether you need a complete brand identity, an eye-catching ad campaign, or fresh social media visuals, I
+            am here to help bring your ideas to life.</p>
+          <div class="contact-items">
+            <a href="mailto:saifallahalashmawy@gmail.com" class="contact-item" id="contactEmail">
+              <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"
+                  stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg></div>
+              <div><span class="contact-label">Email</span><span
+                  class="contact-value">saifallahalashmawy@gmail.com</span></div>
+            </a>
+            <a href="https://wa.me/9661143999111" target="_blank" class="contact-item" id="contactWhatsApp">
+              <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"
+                  stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                </svg></div>
+              <div><span class="contact-label">WhatsApp</span><span class="contact-value">01143999111</span></div>
+            </a>
+          </div>
+          <a href="Saif_Al-Ashmay_Portfolio.pdf" download="Saif_Al-Ashmay_CV.pdf" class="btn btn-primary download-big"
+            id="contactDownloadCV">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Download Full CV / Portfolio
+          </a>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group"><label for="inputName">Your Name</label><input type="text" id="inputName"
+                placeholder="Ahmed Mohamed" required /></div>
+            <div class="form-group"><label for="inputEmail">Email Address</label><input type="email" id="inputEmail"
+                placeholder="hello@example.com" required /></div>
+          </div>
+          <div class="form-group"><label for="inputSubject">Subject</label><input type="text" id="inputSubject"
+              placeholder="Brand identity project" required /></div>
+          <div class="form-group"><label for="inputMessage">Message</label><textarea id="inputMessage" rows="5"
+              placeholder="Tell me about your project..." required></textarea></div>
+          <button type="submit" class="btn btn-primary form-submit" id="formSubmit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor"
+              stroke-width="2" viewBox="0 0 24 24">
+              <line x1="22" y1="2" x2="11" y2="13" />
+              <polygon points="22 2 15 22 11 13 2 9 22 2" />
+            </svg>
+            Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+              stroke-width="2" viewBox="0 0 24 24">
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+            Thanks! Your message has been sent.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-logo"><span class="logo-bracket">&lt;</span>Saif<span class="logo-dot">.</span><span
+          class="logo-accent">design</span><span class="logo-bracket">/&gt;</span></p>
+      <p class="footer-copy">2024 Saif Al-Ashmay. All rights reserved.</p>
+      <a href="Saif_Al-Ashmay_Portfolio.pdf" download="Saif_Al-Ashmay_CV.pdf" class="btn btn-outline btn-sm"
+        id="footerDownloadCV">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+          <polyline points="7 10 12 15 17 10" />
+          <line x1="12" y1="15" x2="12" y2="3" />
+        </svg>
+        Download CV
+      </a>
+    </div>
+  </footer>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
